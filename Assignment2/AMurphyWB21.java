@@ -21,9 +21,10 @@ ASCII Signagure: AJM
 ************************************************
 * Programmer: Amber Murphy
 * Course:     CITP 190: Fall 2013
-* Filename:   Amurphyh1.java
-* Assignment: Handout1
-* Summary:    Create print line of hello world!
+* Filename:   AMurphyWB21.java
+* Assignment: Workbook 2-1
+* Summary:    Calculate the area and parameter
+*             of a triangle.
 ************************************************
 */
 package amurphywb2.pkg1;
@@ -40,9 +41,9 @@ public class AMurphyWB21
         
         //get the input from the user
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Length:     ");
+        System.out.print("Enter Length:   ");
         double length = sc.nextDouble();
-        System.out.println("Enter Width:    ");
+        System.out.print("Enter Width:    ");
         double width = sc.nextDouble();
         
         //calculate the area and perimiter
